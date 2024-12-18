@@ -7,12 +7,12 @@ button.addEventListener("click",function () {
     if (boolean) {
         h1.style.color = 'white'
         body.style.backgroundColor = 'black'
-        button.textContent = 'Tema Claro'
+        button.textContent = 'Tema Oscuro'
         boolean = !boolean
     } else {
         h1.style.color = 'black'
         body.style.backgroundColor = 'white'
-        button.textContent = 'Tema Osuro'
+        button.textContent = 'Tema Claro'
         boolean = !boolean
     }
 })
